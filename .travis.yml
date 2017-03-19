@@ -12,10 +12,8 @@ script:
 - codecov
 
 deploy:
-  provider: npm
-  email: ruben.schmidmeister@icloud.com
-  api_key:
-    secure: DUAhXWpSNHv+scGJQiFmPJRZcFi+aTCzQ8dJzeVgKTz/cNtFzGvvZsg2SwgoO7X35nwfNlbHNIY7MMkWVmhhGgW1LivGE6bUdJLFeyvltQaMol53fghlIbjFBg88z62/+GA2PzT3rbQV9RALHyeBIj6tizgIad5DlVvmN892z1txxNbafsPgRfXqyJfEffN13lL4I7CAW49t0xtZiy33k20XfarT86LrvKrKbw5uWmJkv7NQBn+ots//yoJwu0c8CW7zFdjwW19+CqWhsaqSDMLroqbIXU2/zeG0kfCb4QcgKCiyjI5wNZwLAdzDGC1ny0b6OiqacrWG5vPGJjPruDDrLS5RoTPO2WgdAx2IsGIWnUXHPF+gIrBgyfoEt/R+Uk+RCqkJwUnQ2yVOjIGGWS5jitAv4LXY6yyRKqXhw5s2Hh08NfBeyLibPjERmgaBXuX3VxpB8PwYd+mcF6rT7Wz2etrFzz2n+s5JpqbjqStItU3uhPuKy1JKrj+0DNTqfSw4WfYkmHsS1+ZT4QebGaYtL36FvniwEpb09l5Jrn3AVzCvcGyrlISc1lUVBBkmGZ3mPlbrbl15dzQN3nRbh+arjGhbDDWkFoFT5KpnFG9AcMWLfH/qu7plLlShK5piVMQ+kMWnpNr8msBgKZYgaMq9u0uDb4NkcxqWsos+YMw=
+  provider: script
+  script: sh .travis/deploy.sh
   on:
     tags: true
     repo: bash/random.js
