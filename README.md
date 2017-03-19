@@ -7,6 +7,7 @@
 [![dependencies Status](https://david-dm.org/bash/random.js/status.svg)](https://david-dm.org/bash/random.js)
 [![devDependencies Status](https://david-dm.org/bash/random.js/dev-status.svg)](https://david-dm.org/bash/random.js?type=dev)
 [![Bitcoin](https://img.shields.io/badge/bitcoin-donate-yellow.svg)](https://www.coinbase.com/rschmidmeister)
+![gluten-free](https://img.shields.io/badge/gluten-free-green.svg)
 
 
 A [deterministic random number](https://www.xkcd.com/221/) generator for node.    
