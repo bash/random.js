@@ -1,0 +1,9 @@
+language: node_js
+install:
+- npm install
+- npm install -g codecov istanbul
+
+script:
+- ./node_modules/.bin/standard
+- istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+- codecov
