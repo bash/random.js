@@ -7,6 +7,15 @@ install:
 - npm install -g codecov istanbul
 
 script:
-- ./node_modules/.bin/standard index.js
+- "./node_modules/.bin/standard index.js"
 - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
 - codecov
+
+deploy:
+  provider: npm
+  email: ruben.schmidmeister@icloud.com
+  api_key:
+    secure: 3KQHkljzig3HCCbi29Kg9WKlrI8LvZ0t6tHB2nRrc58zgOjSF0TpnxCSch0Ezn7hAGc+eRpxonTYSoob4FnYEhwCEr3CLjlHQ7IY8DDVIcF+Gu5Mw4J+rrPEAZiFCiOzv+qF5sGeHfTHEmk2aM85C21Y339tM3H6fzphpF/qXBdWjKmZ/k4HDQZivth4DyceNhGb8jDqxKldFsPng+DOk7UcILEb4qI4qtQypLTXfLrIEXcZ+JGEamlAEJdq81CQNARyNupTM0RVdya0eHhoywu9xFRQORyxtlX+m3J9pFYx9XTRG5JugtgUzR2fh0qS46N2B4pHQzfGPyyCRWdN3dfzmpldTICHVPh4kHrESuMl+ydrE35aVzvZGzjC1UVRHSuXBhjNs6P6ip6c9jOZGq0GEC+/5jO5urqSca2b8Gb/ctPHlcjWBTY0EyCEEdMokdG0mn24Llf+VT4IWXmpJi70zU3Alo3SLaei88ryIt4RwqGZh7p9h/5aiL9B+TqVfpZl/qiz1ualQDeslp6JxhxDS90C/2eE7rzPAJ6QGQwnRA3vZZaYBpyfdYQ9K6vB72XyqNx7YS8bVo29w4Wx4AmqDmUeIfhTZPQHpyh+XYXkXeOc6hVH2Eu+dz4quTwi6l9s2jwCs+RzHzKW9u5w/zZ/bYyeSH6IyRC6ueTyzRo=
+  on:
+    tags: true
+    repo: bash/random.js
