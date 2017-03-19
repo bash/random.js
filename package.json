@@ -4,7 +4,7 @@
   "description": "A deterministic random number generator for node",
   "main": "index.js",
   "scripts": {
-    "test": "standard . && mocha"
+    "test": "standard index.js && mocha"
   },
   "repository": {
     "type": "git",

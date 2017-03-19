@@ -17,3 +17,10 @@ Install with:
 npm i --save @rschmidmeister/random.js
 ```
 
+Usage:
+
+```
+const random = require('@rschmidmeister/random.js')
+
+console.log(random())
+```
