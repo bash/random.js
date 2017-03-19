@@ -7,7 +7,7 @@
 A [deterministic random number](https://www.xkcd.com/221/) generator for node.    
 This module has some important advantages over other modules:
 
-- Only **25 bytes** in size without Gzip!
+- Only **25 bytes** in size (without gzip)!
 - **O(1)** complexity
 - **100%** test coverage
 
