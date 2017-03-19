@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/bash/random.js/branch/master/graph/badge.svg)](https://codecov.io/gh/bash/random.js)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
-The first [deterministic random number function](https://www.xkcd.com/221/).  
+A [deterministic random number](https://www.xkcd.com/221/) generator for node.    
 This module has some important advantages over other modules:
 
 - Only **25 bytes** in size without Gzip!
