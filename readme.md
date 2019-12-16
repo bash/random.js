@@ -1,7 +1,7 @@
 # 🎲 random.js
 
 [![Build Status](https://travis-ci.org/bash/random.js.svg?branch=master)](https://travis-ci.org/bash/random.js)
-[![Build status](https://ci.appveyor.com/api/projects/status/luxy1c20asdk08at?svg=true)](https://ci.appveyor.com/project/bash34516/random-js)
+[![Build status](https://ci.appveyor.com/api/projects/status/luxy1c20asdk08at?svg=true)](https://ci.appveyor.com/project/rschmidmeister/random-js)
 [![codecov](https://codecov.io/gh/bash/random.js/branch/master/graph/badge.svg)](https://codecov.io/gh/bash/random.js)
 [![Code Climate](https://codeclimate.com/github/bash/random.js/badges/gpa.svg)](https://codeclimate.com/github/bash/random.js)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
