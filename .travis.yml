@@ -3,11 +3,11 @@ node_js:
 - node
 
 install:
-- npm install
-- npm install -g codecov istanbul
+- yarn install
+- yarn add --global codecov istanbul
 
 script:
-- "./node_modules/.bin/standard index.js"
+- yarn standard index.js
 - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
 - codecov
 

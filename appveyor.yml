@@ -10,7 +10,7 @@ install:
 
 test_script:
 - node --version
-- npm --version
-- npm test
+- yarn --version
+- yarn test
 
 build: off
