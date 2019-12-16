@@ -4,7 +4,7 @@ node_js:
 
 install:
 - yarn install
-- yarn add --global codecov istanbul
+- npm install --global codecov istanbul
 
 script:
 - yarn standard index.js
