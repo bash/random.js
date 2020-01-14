@@ -1,1 +1,6 @@
-.travis.yml
+/node_modules/
+/.nyc_output/
+/coverage/
+/yarn.lock
+/.github/
+/.editorconfig

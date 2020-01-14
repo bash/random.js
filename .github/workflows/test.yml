@@ -19,6 +19,8 @@ jobs:
       run: yarn install
     - name: Test
       run: yarn test
+    - name: Check Code Style
+      run: yarn lint
 
     - name: Report Coverage
       uses: coverallsapp/github-action@master
