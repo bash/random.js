@@ -1,3 +1,5 @@
+# Changelog
+
 ## 0.1.0
 Initial release
 
@@ -9,3 +11,4 @@ No changes
 
 ## 1.1.0
 - Added typescript type definitions
+- Updated development dependencies
