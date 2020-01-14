@@ -1,6 +1,6 @@
 # 🎲 random.js
 
-[![Build Status](https://github.com/bash/random.js/workflows/Test/badge.svg)](https://github.com/bash/node-uname/actions)
+[![Build Status](https://github.com/bash/random.js/workflows/Test/badge.svg)](https://github.com/bash/random.js/actions)
 [![Build status](https://ci.appveyor.com/api/projects/status/luxy1c20asdk08at?svg=true)](https://ci.appveyor.com/project/rschmidmeister/random-js)
 [![Coverage Status](https://coveralls.io/repos/github/bash/random.js/badge.svg?branch=tooling)](https://coveralls.io/github/bash/random.js?branch=tooling)
 [![Code Climate](https://codeclimate.com/github/bash/random.js/badges/gpa.svg)](https://codeclimate.com/github/bash/random.js)
