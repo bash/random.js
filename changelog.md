@@ -7,6 +7,5 @@ No changes
 ## 1.0.1
 - Updated development dependencies
 
-## Unreleased
+## 1.1.0
 - Added typescript type definitions
-- 

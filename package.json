@@ -1,6 +1,6 @@
 {
   "name": "@rschmidmeister/random.js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A deterministic random number generator for node",
   "main": "index.js",
   "types": "index.d.ts",
