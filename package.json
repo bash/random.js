@@ -3,8 +3,10 @@
   "version": "1.0.1",
   "description": "A deterministic random number generator for node",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "standard index.js && mocha"
+    "test": "nyc --reporter=lcov mocha",
+    "lint": "standard index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,9 @@
   },
   "homepage": "https://github.com/bash/random.js#readme",
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "mocha": "^6.2.2",
-    "standard": "^14.3.1",
-    "istanbul": "^0.4.5"
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1"
   }
 }
