@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A deterministic random number generator for node",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "nyc --reporter=lcov mocha",
     "lint": "standard index.js"
