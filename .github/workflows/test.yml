@@ -1,0 +1,26 @@
+name: Test
+
+on: ["push", "pull_request"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        version: 10.x
+    - run: npm install -g yarn
+
+    - name: Install Dependencies
+      run: yarn install
+    - name: Test
+      run: yarn test
+
+    - name: Report Coverage
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
