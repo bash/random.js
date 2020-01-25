@@ -1,3 +1,2 @@
-// chosen by fair dice roll.
-// guaranteed to be random.
-module.exports = () => 4
+const fairDiceRoll = require('./algorithms/fair-dice-roll')
+module.exports = Object.assign(fairDiceRoll, { fairDiceRoll })
