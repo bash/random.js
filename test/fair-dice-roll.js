@@ -5,6 +5,6 @@ const { fairDiceRoll } = require('../index')
 
 describe('fair dice roll', () => {
   it('always returns the same number', () => {
-    assert.equal(fairDiceRoll(), fairDiceRoll())
+    assert.equal(4, fairDiceRoll())
   })
 })
