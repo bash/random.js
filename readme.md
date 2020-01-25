@@ -10,24 +10,28 @@
 [![devDependencies Status](https://david-dm.org/bash/random.js/dev-status.svg)](https://david-dm.org/bash/random.js?type=dev)
 ![gluten free](https://img.shields.io/badge/gluten-free-green.svg)
 
-
-A [deterministic random number](https://www.xkcd.com/221/) generator for node.    
+A *deterministic random number* generator for node.    
 This module has some important advantages over other modules:
 
-- Only **82 bytes** in size (without gzip)!
+- Only **400 bytes** in size (without gzip)!
 - **O(1)** complexity
 - **100%** test coverage
 
-Install with:
+## Supported algorithms
+
+- [Fair Dice Roll](https://www.xkcd.com/221/)
+- [Dilbert Oracle](https://dilbert.com/strip/2001-10-25)
+
+## Installation
 
 ```bash
 npm i --save @rschmidmeister/random.js
 ```
 
-Usage:
+## Usage
 
 ```js
-const random = require('@rschmidmeister/random.js')
-
-console.log(random())
+const { fairDiceRoll, dilbertOracle } = require('@rschmidmeister/random.js')
+console.log(fairDiceRoll())
+console.log(dilbertOracle())
 ```
