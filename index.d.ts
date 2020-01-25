@@ -1,6 +1,6 @@
 declare namespace random {
     // Troll: Nine nine nine nine nine nine
-    function dilibertOracle(): number;
+    function dilbertOracle(): number;
     // chosen by fair dice roll. guaranteed to be random.
     function fairDiceRoll(): number;
 }

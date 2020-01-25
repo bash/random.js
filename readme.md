@@ -20,7 +20,7 @@ This module has some important advantages over other modules:
 ## Supported algorithms
 
 - [Fair Dice Roll](https://www.xkcd.com/221/)
-- [Dilibert Oracle](https://dilbert.com/strip/2001-10-25)
+- [Dilbert Oracle](https://dilbert.com/strip/2001-10-25)
 
 ## Installation
 
@@ -31,7 +31,7 @@ npm i --save @rschmidmeister/random.js
 ## Usage
 
 ```js
-const { fairDiceRoll, dilibertOracle } = require('@rschmidmeister/random.js')
+const { fairDiceRoll, dilbertOracle } = require('@rschmidmeister/random.js')
 console.log(fairDiceRoll())
-console.log(dilibertOracle())
+console.log(dilbertOracle())
 ```

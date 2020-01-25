@@ -1,3 +1,3 @@
 const fairDiceRoll = require('./algorithms/fair-dice-roll')
-const dilibertOracle = require('./algorithms/dilbert-oracle')
-module.exports = Object.assign(fairDiceRoll, { fairDiceRoll, dilibertOracle })
+const dilbertOracle = require('./algorithms/dilbert-oracle')
+module.exports = Object.assign(fairDiceRoll, { fairDiceRoll, dilbertOracle })
