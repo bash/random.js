@@ -1,7 +1,9 @@
-declare module '@rschmidmeister/random.js' {
-    // chosen by fair dice roll. guaranteed to be random.
-    export function fairDiceRoll(): number;
+declare namespace random {
     // Troll: Nine nine nine nine nine nine
-    export function dilibertOracle(): number;
-    export = fairDiceRoll;
+    function dilibertOracle(): number;
+    // chosen by fair dice roll. guaranteed to be random.
+    function fairDiceRoll(): number;
 }
+// Legacy default export
+declare function random(): number;
+export = random;
