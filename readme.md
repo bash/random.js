@@ -36,7 +36,7 @@ This project has a very ambitious roadmap
 for discovering and implementing new algorithms.
 
 We are working hard to ship new algorithm by these dates.
-Note that these dates are estimates and we may or may
+Note that these dates are estimates and are thus subject to change.
 
 * Q2 2040: Implement 2 new algorithms.
 * Q4 2050: Implement 5 additional algorithms.
