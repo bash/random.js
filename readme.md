@@ -6,8 +6,6 @@
 [![Code Climate](https://codeclimate.com/github/bash/random.js/badges/gpa.svg)](https://codeclimate.com/github/bash/random.js)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 [![NPM](https://img.shields.io/npm/v/@rschmidmeister/random.js.svg)](https://www.npmjs.com/package/@rschmidmeister/random.js)
-[![dependencies Status](https://david-dm.org/bash/random.js/status.svg)](https://david-dm.org/bash/random.js)
-[![devDependencies Status](https://david-dm.org/bash/random.js/dev-status.svg)](https://david-dm.org/bash/random.js?type=dev)
 ![gluten free](https://img.shields.io/badge/gluten-free-green.svg)
 
 A *deterministic random number* generator for node.    
