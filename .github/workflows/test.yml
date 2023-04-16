@@ -16,14 +16,11 @@ jobs:
     - run: npm install -g yarn
 
     - name: Install Dependencies
-      run: yarn install
+      run: npm ci
     - name: Test
-      run: yarn test
-    - name: Check Code Style
-      run: yarn lint
-    - name: Lint .d.ts
-      run: yarn dtslint
-
+      run: npm run test
+    - name: Lint
+      run: npm run lint
     - name: Report Coverage
       uses: coverallsapp/github-action@v2
       with:

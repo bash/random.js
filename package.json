@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "nyc --reporter=lcov mocha",
-    "lint": "standard index.js"
+    "lint": "standard index.js && dtslint"
   },
   "repository": {
     "type": "git",
