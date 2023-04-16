@@ -16,9 +16,8 @@ This module has some important advantages over other modules:
 - **100%** test coverage
 
 ## Supported algorithms
-
-- [Fair Dice Roll](https://www.xkcd.com/221/)
-- [Dilbert Oracle](https://dilbert.com/strip/2001-10-25)
+* [Fair Dice Roll](https://www.xkcd.com/221/)
+* [Dilbert Oracle](https://web.archive.org/web/20230305130209/https://dilbert.com/strip/2001-10-25)
 
 ## Installation
 
@@ -27,7 +26,6 @@ npm i --save @rschmidmeister/random.js
 ```
 
 ## Usage
-
 ```js
 const { fairDiceRoll, dilbertOracle } = require('@rschmidmeister/random.js')
 console.log(fairDiceRoll())
