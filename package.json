@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/bash/random.js#readme",
   "devDependencies": {
-    "dtslint": "^2.0.5",
-    "coveralls": "^3.0.9",
-    "mocha": "^7.0.0",
-    "nyc": "^15.0.0",
-    "standard": "^14.3.1"
+    "dtslint": "^4.2.1",
+    "coveralls": "^3.1.1",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "standard": "^17.0.0"
   }
 }
