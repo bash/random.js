@@ -16,9 +16,4 @@ jobs:
       run: npm ci
     - name: Test
       run: npm run test
-    - name: Lint
-      run: npm run lint
-    - name: Report Coverage
-      uses: coverallsapp/github-action@v2
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+

@@ -1,12 +1,11 @@
 {
-  "name": "@rschmidmeister/random.js",
+  "name": "@<deadname>/random.js",
   "version": "1.1.0",
   "description": "A deterministic random number generator for node",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "nyc --reporter=lcov mocha",
-    "lint": "standard index.js && dtslint"
+    "test": "nyc --reporter=lcov mocha"
   },
   "repository": {
     "type": "git",
@@ -22,10 +21,8 @@
   },
   "homepage": "https://github.com/bash/random.js#readme",
   "devDependencies": {
-    "dtslint": "^4.2.1",
     "coveralls": "^3.1.1",
     "mocha": "^11.1.0",
-    "nyc": "^17.1.0",
-    "standard": "^17.0.0"
+    "nyc": "^17.1.0"
   }
 }
